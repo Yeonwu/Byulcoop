@@ -35,7 +35,7 @@ if ( SERVER_TYPE === 'DEV' ) {
 	define ( 'GOOGLE_CLIENT_ID', '93864729941-8ohmu805j0etq8bh7u203h2cns9kt7gn.apps.googleusercontent.com' );\
 	
 	//GOOGLE CLIENT SECRET
-	define ( 'GOOGLE_CLIENT_SECRET', 'rSaS8-IKrbsFyoHaZLOrq_HB' );
+	define ( 'GOOGLE_CLIENT_SECRET', '' );
 	
 } else if ( SERVER_TYPE === 'SER' ) {
 	
@@ -43,13 +43,13 @@ if ( SERVER_TYPE === 'DEV' ) {
 	define ( 'VERSION', '1.0');
 	
 	//SERVER URL
-	define ('URL', 'byulcoop.cafe24.com');
+	define ('URL', '');
 	
 	// DB CONFIG
 	define ( 'CONF_DB', array(
-		'db_user' => "byulcoop", // DB 로그인 아이디
-		'db_password' => "gkrryaowja2@", // DB 로그인 비밀번호
-		'db_name' => "byulcoop")  // DB 이름
+		'db_user' => "", // DB 로그인 아이디
+		'db_password' => "", // DB 로그인 비밀번호
+		'db_name' => "")  // DB 이름
 	);
 
 	// DIR CONFIG
@@ -64,7 +64,7 @@ if ( SERVER_TYPE === 'DEV' ) {
 	define ( 'GOOGLE_CLIENT_ID', '93864729941-3cre6mln5dh37nqvtd28ap761i85j0q4.apps.googleusercontent.com' );
 	
 	//GOOGLE CLIENT SECRET
-	define ( 'GOOGLE_CLIENT_SECRET', 'RBRiCWiGHcKnP5I-WEaUc8gj' );
+	define ( 'GOOGLE_CLIENT_SECRET', '' );
 	
 } else {
 	
